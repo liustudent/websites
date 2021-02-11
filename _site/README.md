@@ -1,4 +1,5 @@
 # websites
 gem install bundler jekyll
 bundle install
-bundle exec jekyll serve# websites
+bundle exec jekyll serve
+# websites
