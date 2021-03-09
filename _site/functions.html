@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Liustudent Official Website</title>
+        <title>LiuStudent Functions</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Site Description Here">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
@@ -18,15 +18,34 @@
     <body class=" ">
         <a id="start"></a>
         <div class="nav-container">
+            <div class="bar bar--sm visible-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="index.html">
+                                <img class="logo logo-dark" alt="logo" src="img/2.png" />
+                                <img class="logo logo-light" alt="logo" src="img/2.png" />
+                            </a>
+                        </div>
+                        <div class="col-xs-9 col-sm-10 text-right">
+                            <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                                <i class="icon icon--sm stack-interface stack-menu"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </div>    
+
             <nav id="menu1" class="bar bar-1 hidden-xs">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-1 col-sm-2 hidden-xs">
                             <div class="bar__module">
                                 <a href="index.html"> 
-                                    <img class="logo logo-dark" alt="logo" src="img/2.png" height="200" width="150"> 
-                                    <!-- <img class="logo logo-light" alt="logo" src="img/2.png" height="200" width="150">  -->
-                                </a>
+                                    <img class="logo logo-dark" alt="logo" src="img/2.png" style="width:150px"> 
+                                    <img class="logo logo-light" alt="logo" src="img/2.png" style="width:150px"> </a>
                             </div>
                         </div>
                         <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
@@ -53,8 +72,8 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="login.html">
-                                            登录
+                                        <a href="register.html">
+                                            现在注册
                                         </a>
                                     </li>
                                 </ul>
@@ -63,11 +82,11 @@
                                         <!-- <a class="btn btn--sm type--uppercase" href="#customise-template"> <span class="btn__text">
                                         Contact Us
                                     </span> </a> -->
-                                    <a class="btn btn--sm btn--primary type--uppercase" href="register.html"> <span class="btn__text">
-                                        免费注册
+                                    <a class="btn btn--sm btn--primary type--uppercase" href="login.html"> <span class="btn__text" >
+                                        登录
                                     </span> </a>
                                 </div>
-                            
+                            </div>
                         </div>
                     </div>
                 </div>
