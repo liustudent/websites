@@ -17,75 +17,16 @@
     </head>
     <body class=" ">
         <a id="start"></a>
-        <div class="nav-container">
-            <div class="bar bar--sm visible-xs">
+        <div class="nav-container ">
+            <nav class="bar bar-4 bar--transparent bar--absolute" data-fixed-at="200">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="index.html">
-                                <img class="logo logo-dark" alt="logo" src="img/2.png" />
-                                <img class="logo logo-light" alt="logo" src="img/2.png" />
-                            </a>
-                        </div>
-                        <div class="col-xs-9 col-sm-10 text-right">
-                            <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
-                                <i class="icon icon--sm stack-interface stack-menu"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </div>    
-
-            <nav id="menu1" class="bar bar-1 hidden-xs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-1 col-sm-2 hidden-xs">
+                        <div class="col-md-1 col-md-offset-0 col-sm-2 col-sm-offset-0 col-xs-4 col-xs-offset-4">
                             <div class="bar__module">
-                                <a href="index.html"> 
-                                    <img class="logo logo-dark" alt="logo" src="img/2.png" style="width:150px"> 
-                                    <img class="logo logo-light" alt="logo" src="img/2.png" style="width:150px"> </a>
-                            </div>
-                        </div>
-                        <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
-                            <div class="bar__module" style = "font-size: 20px; font-weight: bold; ">
-                                <ul class="menu-horizontal text-left">
-                                    <li>
-                                        <a href="functions.html">
-                                            功能介绍
-                                        </a>
-                                    </li>                                        
-                                    <li>
-                                        <a href="downloads.html">
-                                            下载应用
-                                        </a>
-                                    </li>                                        
-                                    <li>
-                                        <a href="accounts.html">
-                                            高级帐户
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="help.html">
-                                            帮助中心
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="register.html">
-                                            现在注册
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="bar__module">
-                                        <!-- <a class="btn btn--sm type--uppercase" href="#customise-template"> <span class="btn__text">
-                                        Contact Us
-                                    </span> </a> -->
-                                    <a class="btn btn--sm btn--primary type--uppercase" href="login.html"> <span class="btn__text" >
-                                        登录
-                                    </span> </a>
-                                </div>
+                                <a href="index.html">
+                                    <img class="logo logo-dark" alt="logo" src="img/logo-blue.png" />
+                                    <img class="logo logo-light" alt="logo" src="img/logo-blue.png" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -93,195 +34,57 @@
             </nav>
         </div>
         <div class="main-container">
-            <!-- <section class="text-center height-80 imagebg" data-overlay="4">
-                <div class="background-image-holder">
-                    <img alt="background" src="img/background1.jpg" />
-                </div>
-                <div class="container pos-vertical-center">
+            
+            
+            <section class="switchable imageblock feature-large height-100" style="background-color: white">
+                
+                <div class="container pos-vertical-center"  >
                     <div class="row">
-                        <div class="col-sm-7 col-md-5">
-                            <h2>欢迎使用留同学APP</h2>
-                            <p class="lead">
-                                赶紧加入我们的大家族吧
-                            </p>
+                        <div class="col-md-5 col-sm-7" >
+                            <h2 style="font-size:48px;color:#13113C">欢迎来到留同学</h2>
+                            
+                            <span class="type--fine-print" style="font-size:16px; color:#13113C">寻找校友，在线答疑，直播授课同一平台实现。<br />
+                                已经有留同学账户了？ 
+                                <a href="login.html" style="font-size:16px; color:#29517C">现在登录</a>
+                            </span>
+                            
+                            
                             <form>
                                 <div class="row">
-                                    <div class="col-sm-12">
-                                        <input type="text" placeholder="邮箱" />
+                                    <div class="col-xs-12">
+                                        <input type="email" name="Email Address" placeholder="手机号或邮箱" style="font-size:20px;"/>
                                     </div>
-                                    <div class="col-sm-12">
-                                        <input type="password" placeholder="密码" />
+                                    <div class="col-xs-12">
+                                        <input type="password" name="Password" placeholder="密码" style="font-size:20px;"/>
                                     </div>
-                                    <div class="col-sm-12">
-                                        <button class="btn btn--primary type--uppercase" type="submit">创建账户</button>
+                                    <div class="col-xs-12" >
+                                        <button type="submit" class="btn btn--primary type--uppercase" style="font-size:20px;background-color:#29517C">登录</button>
                                     </div>
+                                    <!-- <div class="col-xs-12">
+                                        <span class="type--fine-print">By signing up, you agree to the
+                                            <a href="#">Terms of Service</a>
+                                        </span>
+                                    </div> -->
                                 </div>
-                                
+                                <!--end row-->
                             </form>
-                            <span class="type--fine-print block">点击注册后表明您已同意相关条款
-                                <a href="register.html">条款内容</a>
-                            </span>
+                        </div>
+                        <div class="imageblock__content col-md-5 col-sm-6 pos-right">
+                            <div class="background-image-holder">
+                                <img alt="image" src="img/05 copy.png" />
+                            </div>
                         </div>
                         
                     </div>
-                </div>
-            </section> -->
-
-            <section class="switchable feature-large">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img alt="Image" class="border--round" src="img/loginimg.png" />
-                        </div>
-                        <div class="col-sm-6 col-md-6">
-                            <div class="switchable__text">
-                                <h1>
-                                    欢迎使用留同学
-                                </h1>
-                                <h2>
-                                    赶紧加入我们的大家族吧
-                                </h2>
-                                <h5>
-                                    <span>已有账户？  <a href="login.html">现在登录</a></span>
-                                </h5>
-                                <form>
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <input type="text" placeholder="邮箱" />
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <input type="password" placeholder="密码" />
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <button class="btn btn--primary type--uppercase" type="submit">创建账户</button>
-                                        </div>
-                                    </div>
-                                </form>
-                                <!-- <a class="btn btn--primary type--uppercase" href="register.html">
-                                    <span class="btn__text" >
-                                        注册
-                                    </span>
-                                </a>  -->
-                                
-                            </div>
-                        </div>
-                    </div>
                     <!--end of row-->
                 </div>
-                <!--end of container-->
-            </section>
-
-            <!-- <section class="text-center cta cta-4 space--xxs border--bottom imagebg" data-gradient-bg='#4876BD,#5448BD,#8F48BD,#BD48B1'>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <span class="label label--inline">Hot!</span>
-                            <span>马上试试留同学APP吧！  <a href="#">现在注册</a></span>
-                            
-                        </div>
+                <!-- <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                    <div class="background-image-holder">
+                        <img alt="image" src="img/05 copy.png" />
                     </div>
-                    
-                </div>
+                </div> -->
                 
-            </section> -->
-            <footer class="footer-3 text-center-xs space--xs ">            
-                <div class="container">
-                    <div class="row">
-                            <div class="col-sm-8 col-md-2">
-                                <div class="footer-links">
-                                    <div class="footer-link-title" style = "font-size: 15px; font-weight: bold;">产品</div>
-                                    <div><a href="#" class="footer-link">功能介绍</a></div>
-                                    <div><a href="#" class="footer-link">下载应用</a></div>
-                                    <div><a href="#" class="footer-link">高级用户</a></div>
-                                </div>                                                   
-                            </div>
-                            <div class="col-sm-8 col-md-2">
-                                <div class="footer-links">
-                                    <div class="footer-link-title" style = "font-size: 15px; font-weight: bold;">帮助</div>
-                                    <div><a href="#" class="footer-link">帮助中心</a></div>
-                                    <div><a href="#" class="footer-link">FAQ</a></div>
-                                    <div><a href="#" class="footer-link">论坛</a></div>
-                                </div>                                                   
-                            </div>
-                            <div class="col-sm-8 col-md-2">
-                                <div class="footer-links">
-                                    <div class="footer-link-title" style = "font-size: 15px; font-weight: bold;">资源</div>
-                                    <div><a href="#" class="footer-link">媒体素材</a></div>
-                                    <div><a href="#" class="footer-link">URLScheme</a></div>
-                                </div>                                                   
-                            </div>
-                            <div class="col-sm-8 col-md-2">
-                                <div class="footer-links">
-                                    <div class="footer-link-title" style = "font-size: 15px; font-weight: bold;">团队</div>
-                                    <div><a href="#" class="footer-link">关于我们</a></div>
-                                    <div><a href="#" class="footer-link">加入我们</a></div>
-                                </div>                                                   
-                            </div>
-                            <div class="col-sm-8 col-md-2">
-                                <div class="footer-links">
-                                    <div class="footer-link-title" style = "font-size: 15px; font-weight: bold;">法律</div>
-                                    <div><a href="#" class="footer-link">使用条款</a></div>
-                                    <div><a href="#" class="footer-link">隐私声明</a></div>
-                                    <div><a href="#" class="footer-link">开源协议</a></div>
-                                </div>                                                   
-                            </div>
-   
-                            <div class="col-sm-8 col-md-2">
-                                <!-- <div class="text-right text-center-xs">
-                                        关注我们吧
-                                </div>                         -->
-                                <div class="text-right text-center-xs">
-                                    <ul class="social-list list-inline list--hover" >
-                                        <li>
-                                            <a href="#">
-                                                <img src="img/linkedin.png">
-                                                <!-- <i class="socicon socicon-google icon icon--xs" title="#"></i> -->
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <ul class="social-list list-inline list--hover" >
-                                        <li>
-                                            <a href="#">
-                                                <!-- <i class="socicon socicon-twitter icon icon--xs" title="#"></i> -->
-                                                <img src="img/twitter.png">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <ul class="social-list list-inline list--hover" >
-                                        <li>
-                                            <a href="#" target="_blank">
-                                                <!-- <i class="socicon socicon-facebook icon icon--xs" title="#"></i> -->
-                                                <img src="img/facebook.png">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <ul class="social-list list-inline list--hover" >
-                                        <li>
-                                            <a href="#">
-                                                <!-- <i class="socicon socicon-instagram icon icon--xs" title="#"></i> -->
-                                                <img src="img/ins.png">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p class="type--fine-print">
-                                2021 Turing EdTech Inc.| <a href="{{page.engUrl}}">English</a>
-                            </p>
-                        </div>
-                        <div class="col-sm-6 text-right text-center-xs">
-                            <span class="type--fine-print">&copy;
-                                <span class="update-year"></span> Turing EdTech Inc.
-                            </span>
-                            <!-- <a class="type--fine-print" href="#">Privacy Policy</a>
-                            <a class="type--fine-print" href="#">Legal</a> -->
-                        </div>
-                    </div>
-            </footer>
+            </section>
         </div>
         <!--<div class="loader"></div>-->
         <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">

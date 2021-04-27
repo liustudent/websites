@@ -17,16 +17,17 @@
     </head>
     <body class=" ">
         <a id="start"></a>
-        <div class="nav-container">
+        <div class="nav-container" style="height: 90px">
             <div class="bar bar--sm visible-xs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-3 col-sm-2">
+                <div class="container" style="height:50px; width:150px" >
+                    <div class="row" style="height:50px; width:150px">
+                        <div class="col-xs-6 col-sm-4">
                             <a href="index.html">
-                                <img class="logo logo-dark" alt="logo" src="img/2.png" />
-                                <img class="logo logo-light" alt="logo" src="img/2.png" />
+                                <img class="logo logo-dark" alt="logo" src="img/logo-white.png" style="height:50px; width:150px" />
+                                <img class="logo logo-light" alt="logo" src="img/logo-white.png" style="height:50px; width:150px"/>
                             </a>
                         </div>
+                        
                         <div class="col-xs-9 col-sm-10 text-right">
                             <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
                                 <i class="icon icon--sm stack-interface stack-menu"></i>
@@ -38,53 +39,42 @@
                 <!--end of container-->
             </div>    
 
-            <nav id="menu1" class="bar bar-1 hidden-xs">
+            <nav id="menu1" class="bar bar-1 hidden-xs" style="background-color: #3C7CFF" style="height:90px">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-1 col-sm-2 hidden-xs">
                             <div class="bar__module">
                                 <a href="index.html"> 
-                                    <img class="logo logo-dark" alt="logo" src="img/2.png" style="width:150px"> 
-                                    <img class="logo logo-light" alt="logo" src="img/2.png" style="width:150px"> </a>
+                                    <img class="logo logo-dark" alt="logo" src="img/logo-white.png" style="height:50px; width:150px"> 
+                                    <img class="logo logo-light" alt="logo" src="img/logo-white.png" style="height:50px; width:150px"> </a>
                             </div>
                         </div>
-                        <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
-                            <div class="bar__module" style = "font-size: 20px; font-weight: bold; ">
-                                <ul class="menu-horizontal text-left">
-                                    <li>
-                                        <a href="functions.html">
-                                            功能介绍
-                                        </a>
-                                    </li>                                        
-                                    <li>
-                                        <a href="downloads.html">
+                        <!-- <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm"> -->
+                        
+                        <div class="col-md-10 col-sm-12 text-center">
+                            <div class="bar__module" style = "font-size: 16px;  ">
+                                <ul class="menu-horizontal text-center">                             
+                                    <li style="text-align:center">
+                                        <a href="downloads.html" style="color:white; ">
                                             下载应用
                                         </a>
-                                    </li>                                        
-                                    <li>
-                                        <a href="accounts.html">
-                                            高级帐户
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="help.html">
+                                    </li>   
+                                                                         
+                                    <li style="text-align:center">
+                                        <a href="help.html" style="color:white; ">
                                             帮助中心
                                         </a>
-                                    </li>
-                                    <li>
-                                        <a href="register.html">
-                                            现在注册
-                                        </a>
-                                    </li>
+                                    </li>  
                                 </ul>
                             </div>
-                            <div class="bar__module">
-                                        <!-- <a class="btn btn--sm type--uppercase" href="#customise-template"> <span class="btn__text">
-                                        Contact Us
-                                    </span> </a> -->
-                                    <a class="btn btn--sm btn--primary type--uppercase" href="login.html"> <span class="btn__text" >
-                                        登录
-                                    </span> </a>
+                        </div>
+                        <div class="col-md-1 col-sm-12 text-center">
+                            <div class="bar__module" style = "font-size: 16px; text-align:center">
+                                    <a class="btn btn--sm btn--primary type--uppercase" href="login.html" style='background-color:white; '> 
+                                        <span class="btn__text" style="color:black; font-size:16px">
+                                            登录/注册
+                                        </span> 
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -93,58 +83,71 @@
             </nav>
         </div>
         <div class="main-container">
-            <!-- <section class="text-center height-80 imagebg" data-overlay="4">
-                <div class="background-image-holder">
-                    <img alt="background" src="img/background1.jpg" />
-                </div>
+            <section class="text-center height-80 imagebg" style="background-color: #3C7CFF; height:550px">
+                <!-- <div class="background-image-holder">
+                    <img alt="background" src="img/sf.png" >
+                </div> -->
                 <div class="container pos-vertical-center">
                     <div class="row">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <img alt="Image" class="border--round" src="img/3.png" />
+                        <div class="col-md-6">
+                            <div class="switchable__text" >
+                                <h3 style="font-size: 67px;">在任意设备上使用
+                                    留同学</h3>
+                                <p style="font-size: 20px;">  
+                                    一次旅行正在等着你。在我们的网页APP上和学霸们在线学习，同时在移动设备上查看校园资讯吧。
+                                </p>
+                                
                             </div>
-                            <div class="col-sm-6 col-md-6">
-                                <div class="switchable__text">
-                                    <h1>
-                                        留同学APP各种打开方式
-                                    </h1>
-                                    <p class="lead">
-                                        在所有平台上，使用留同学APP管理一切
-                                    </p>
-                                    <a class="btn btn--primary type--uppercase" href="register.html">
-                                        <span class="btn__text">
-                                            现在注册
-                                        </span>
-                                    </a> 
+                        </div>
+                        <div class="col-sm-6">
+                            <img alt="Image" class="border--round" src="img/ios.png" style="width:458px; height:289px"/>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <!-- <div class="container pos-vertical-center">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 ">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-6 centertext" >
+                                        <div class="text_middle" >
+                                            <p style="font-size: 67px;">在任意设备上使用</p>
+                                            <p style="font-size: 67px;">留同学</p>
+                                            <p style="font-size: 20px;">一次旅行正在等着你。在我们的网页APP上和学霸们在线学习，同时在移动设备上查看校园资讯吧。 </p >
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-6" style="width:50%">
+                                        <img alt="Image" class="border--round" src="img/ios.png" />
+                                    </div>
                                     
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section> -->
+                </div> -->
+            </section>
+
             <section class="switchable feature-large">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6 col-md-6">
-                            <a href="register.html">
-                                <img alt="Image" class="border--round" src="img/downloadleft.png" />
-                            </a>
+                        <div class="col-sm-6">
+                            <img alt="Image" class="border--round" src="img/ios.png" style="height:500px; width:500px"/>
                         </div>
                         <div class="col-sm-6">
-                            <img alt="Image" class="border--round" src="img/downloadimg.png" />
+                            <img alt="Image" class="border--round" src="img/android1.png" style="height:500px; width:500px"/>
                         </div>
                     </div>
-                    <!--end of row-->
                 </div>
-                <!--end of container-->
             </section>
             
-            <section>
+            <!-- <section>
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <!-- <h2>Current Campaigns</h2> -->
+                            
                             <div class="row slider" data-arrows="false" data-paging="true">
                                 <li class="col-sm-4 col-xs-12">
                                     <div class="feature feature-1 text-center">
@@ -233,111 +236,89 @@
 
                                 
                             </div>
-                            <!--end of row-->
+                            
                         </div>
                     </div>
-                    <!--end of row-->
+                   
                 </div>
-                <!--end of container-->
-            </section>
-            <section class="text-center cta cta-4 space--xxs border--bottom imagebg" data-gradient-bg='#fcad03,#ecfc03,#03fc98,#0394fc'>
+                
+            </section> -->
+            
+            <footer class="footer-3 text-center-xs space--xs" style="height:409px; background-color: #3C7CFF">            
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-12">
-                            <span class="label label--inline">Hot!</span>
-                            <span>马上试试留同学APP吧！  <a href="register.html">现在注册</a></span>
-                            <!-- <span>Over 280 interface blocks, 140 demo pages and Variant Page Builder.
-                                <a href="#">Purchase Stack</a> for $17 USD.</span> -->
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </section>
-            <footer class="footer-3 text-center-xs space--xs ">            
-                <div class="container">
-                    <div class="row">
-                            <div class="col-sm-8 col-md-2">
-                                <div class="footer-links">
-                                    <div class="footer-link-title" style = "font-size: 15px; font-weight: bold;">产品</div>
-                                    <div><a href="#" class="footer-link">功能介绍</a></div>
-                                    <div><a href="#" class="footer-link">下载应用</a></div>
-                                    <div><a href="#" class="footer-link">高级用户</a></div>
-                                </div>                                                   
-                            </div>
-                            <div class="col-sm-8 col-md-2">
-                                <div class="footer-links">
-                                    <div class="footer-link-title" style = "font-size: 15px; font-weight: bold;">帮助</div>
-                                    <div><a href="#" class="footer-link">帮助中心</a></div>
-                                    <div><a href="#" class="footer-link">FAQ</a></div>
-                                    <div><a href="#" class="footer-link">论坛</a></div>
-                                </div>                                                   
-                            </div>
-                            <div class="col-sm-8 col-md-2">
-                                <div class="footer-links">
-                                    <div class="footer-link-title" style = "font-size: 15px; font-weight: bold;">资源</div>
-                                    <div><a href="#" class="footer-link">媒体素材</a></div>
-                                    <div><a href="#" class="footer-link">URLScheme</a></div>
-                                </div>                                                   
-                            </div>
-                            <div class="col-sm-8 col-md-2">
-                                <div class="footer-links">
-                                    <div class="footer-link-title" style = "font-size: 15px; font-weight: bold;">团队</div>
-                                    <div><a href="#" class="footer-link">关于我们</a></div>
-                                    <div><a href="#" class="footer-link">加入我们</a></div>
-                                </div>                                                   
-                            </div>
-                            <div class="col-sm-8 col-md-2">
-                                <div class="footer-links">
-                                    <div class="footer-link-title" style = "font-size: 15px; font-weight: bold;">法律</div>
-                                    <div><a href="#" class="footer-link">使用条款</a></div>
-                                    <div><a href="#" class="footer-link">隐私声明</a></div>
-                                    <div><a href="#" class="footer-link">开源协议</a></div>
-                                </div>                                                   
-                            </div>
-   
-                            <div class="col-sm-8 col-md-2">
-                                <!-- <div class="text-right text-center-xs">
-                                        关注我们吧
-                                </div>                         -->
-                                <div class="text-right text-center-xs">
-                                    <ul class="social-list list-inline list--hover" >
-                                        <li>
+                        <div class="col-sm-12 centertextfooter" >
+                            <div class="text_middle" >
+                                <div class="col-sm-16 col-md-4">
+                                    <div class="footer-links" style="text-align:center">
+                                        <div class="footer-link-title" style = "font-size: 32px; font-weight: bold; color:white">你的私人学习平台</div>
+                                        <div>
+                                            <img src="img/language.png" style="height:21px; width:32px; margin:auto">
+                                            
+                                            <a class="type--fine-print" style="font-size:14px; color:white">
+                                                中文 | <a href="{{page.engUrl}}" style="font-size:14px; color:white">English</a>
+                                            </a>
+                                        </div>
+                                        
+                                        <div>
                                             <a href="#">
-                                                <img src="img/linkedin.png">
+                                                <img src="img/linkedin.png" style="background-color: white;">
                                                 <!-- <i class="socicon socicon-google icon icon--xs" title="#"></i> -->
                                             </a>
-                                        </li>
-                                    </ul>
-                                    <ul class="social-list list-inline list--hover" >
-                                        <li>
+                                        
                                             <a href="#">
                                                 <!-- <i class="socicon socicon-twitter icon icon--xs" title="#"></i> -->
-                                                <img src="img/twitter.png">
+                                                <img src="img/twitter.png" style="background-color: white;">
                                             </a>
-                                        </li>
-                                    </ul>
-                                    <ul class="social-list list-inline list--hover" >
-                                        <li>
-                                            <a href="#" target="_blank">
+                                        
+                                            <a href="#" target="_blank" >
                                                 <!-- <i class="socicon socicon-facebook icon icon--xs" title="#"></i> -->
-                                                <img src="img/facebook.png">
+                                                <img src="img/facebook.png" style="background-color: white;">
                                             </a>
-                                        </li>
-                                    </ul>
-                                    <ul class="social-list list-inline list--hover" >
-                                        <li>
+                                        
                                             <a href="#">
                                                 <!-- <i class="socicon socicon-instagram icon icon--xs" title="#"></i> -->
-                                                <img src="img/ins.png">
+                                                <img src="img/ins.png" style="background-color: white;">
                                             </a>
-                                        </li>
-                                    </ul>
+                                        </div>
+                                        
+                                    </div>                                                   
+                                </div>
+                                <div class="col-sm-8 col-md-2">
+                                    <div class="footer-links">
+                                        <div class="footer-link-title" style = "font-size: 16px; font-weight: bold; color:white">产品</div>
+                                        <div><a href="#" class="footer-link" style = "font-size: 16px; color:white">功能介绍</a></div>
+                                        <div><a href="#" class="footer-link" style = "font-size: 16px; color:white">下载应用</a></div>
+                                        
+                                    </div>                                                   
+                                </div>
+                                <div class="col-sm-8 col-md-2">
+                                    <div class="footer-links">
+                                        <div class="footer-link-title" style = "font-size: 16px; font-weight: bold;color:white">帮助</div>
+                                        <div><a href="#" class="footer-link" style = "font-size: 16px; color:white">帮助中心</a></div>
+                                        <div><a href="#" class="footer-link" style = "font-size: 16px; color:white">FAQ</a></div>
+                                        <div><a href="#" class="footer-link" style = "font-size: 16px; color:white">论坛</a></div>
+                                    </div>                                                   
+                                </div>
+                                <div class="col-sm-8 col-md-2">
+                                    <div class="footer-links">
+                                        <div class="footer-link-title" style = "font-size: 16px; font-weight: bold;color:white">团队</div>
+                                        <div><a href="#" class="footer-link" style = "font-size: 16px; color:white">关于我们</a></div>
+                                        <div><a href="#" class="footer-link" style = "font-size: 16px; color:white">加入我们</a></div>
+                                    </div>                                                   
+                                </div>
+                                <div class="col-sm-8 col-md-2">
+                                    <div class="footer-links">
+                                        <div class="footer-link-title" style = "font-size: 16px; font-weight: bold;color:white">法律</div>
+                                        <div><a href="#" class="footer-link" style = "font-size: 16px; color:white">使用条款</a></div>
+                                        <div><a href="#" class="footer-link" style = "font-size: 16px; color:white">隐私声明</a></div>
+                                        <div><a href="#" class="footer-link" style = "font-size: 16px; color:white">开源协议</a></div>
+                                    </div>                                                   
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-sm-6">
                             <p class="type--fine-print">
                                 2021 Turing EdTech Inc.| <a href="{{page.engUrl}}">English</a>
@@ -347,10 +328,9 @@
                             <span class="type--fine-print">&copy;
                                 <span class="update-year"></span> Turing EdTech Inc.
                             </span>
-                            <!-- <a class="type--fine-print" href="#">Privacy Policy</a>
-                            <a class="type--fine-print" href="#">Legal</a> -->
+                            
                         </div>
-                    </div>
+                    </div>````1 qq -->
             </footer>
         </div>
         <!--<div class="loader"></div>-->
